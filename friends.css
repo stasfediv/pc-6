@@ -1,1 +1,52 @@
+@media (min-width: 992px){
+    .zaholovok{
+        font-size: 130%;
+    }
 
+    .t_r1, .tr2_{
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .zaholovok{
+        font-size: 120%;
+    }
+
+    .tr_1, .tr_2{
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 768px){
+    .zaholovok{
+        font-size: 110%;
+    }
+}
+table{
+    width: 100%;
+}
+.tr_1{
+    background-color: gray;
+}
+table, tr, td{
+    border: 1px solid;
+}
+h1, h2, caption{
+    text-align: center;
+}
+h1{
+    font-size: 22px;
+}
+.back{
+    font-style: italic;
+}
+.zaholovok{
+    text-align: center;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+.os{
+    text-align: right;
+}
